@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  background: #f5f7fb;
+  background: #dff4ff; /* Light blue */
   color: #111827;
   height: 100vh;
   overflow: hidden;
@@ -40,25 +40,25 @@ button {
   transition: 0.15s ease;
 }
 
-/* Primary */
+/* Pink YES button */
 #yes {
-  background: #2563eb;
+  background: #ff69b4;
   color: white;
 }
 
 #yes:hover {
-  background: #1d4ed8;
+  background: #ff4fa3;
   transform: translateY(-1px);
 }
 
-/* Secondary */
+/* Pink NO button */
 #no {
-  background: #e5e7eb;
+  background: #ffb6d9;
   color: #111827;
 }
 
 #no:hover {
-  background: #d1d5db;
+  background: #ff91c5;
 }
 
 /* Success state */
@@ -70,6 +70,13 @@ button {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: scale(0.98); }
-  to { opacity: 1; transform: scale(1); }
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
