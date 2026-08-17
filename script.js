@@ -5,7 +5,7 @@ let yesScale = 1;
 let noTexts = [
   "Are you sure? 😅",
   "Think again... 🤨",
-  "Be honest 👀",
+  "Making a mistake 👀",
   "Last chance 😄",
   "This button seems broken 🤔"
 ];
