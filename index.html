@@ -1,201 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>One Little Question 💕</title>
-
-  <link rel="stylesheet" href="style.css">
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
-    rel="stylesheet"
-  >
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quick Question 👀</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-  <!-- Background decorations -->
-  <div id="petals"></div>
-  <div id="hearts"></div>
+  <div class="container">
+    <h1 id="question">Will you date me? 👀</h1>
 
-  <!-- Music -->
-  <div class="music-widget">
-    <button id="musicBtn" aria-label="Music">
-      🎵
-    </button>
-
-    <span id="musicStatus">
-      Play music
-    </span>
+    <div class="buttons">
+      <button id="yes">YYES! ♥</button>
+      <button id="no">NO! ☹</button>
+    </div>
   </div>
 
-  <audio id="bgMusic" loop preload="auto">
-    <source src="assets/music/song.mp3" type="audio/mpeg">
-  </audio>
-
-
-  <!-- Main content -->
-  <main class="page">
-
-    <!-- QUESTION CARD -->
-    <section class="card" id="questionCard">
-
-      <!-- Cute cat -->
-      <div class="cat-wrapper">
-        <div class="cat">🐱</div>
-
-        <div class="sweat sweat-1">💧</div>
-        <div class="sweat sweat-2">💧</div>
-      </div>
-
-
-      <div class="card-content">
-
-        <p class="tiny-text">
-          Hey you... 💕
-        </p>
-
-        <h1>
-          I have a
-          <span class="pink">question</span>
-          for you...
-        </h1>
-
-
-        <div class="divider">
-          <span>🌸</span>
-          <span>♡</span>
-          <span>🌸</span>
-        </div>
-
-
-        <p class="question">
-          Will you date me?
-        </p>
-
-
-        <p class="subtext">
-          I've been wanting to ask you this for a while... 🥹
-        </p>
-
-
-        <div class="buttons">
-
-          <button
-            id="yes"
-            class="btn yes-btn"
-          >
-            YES! ♥
-          </button>
-
-          <button
-            id="no"
-            class="btn no-btn"
-          >
-            NO! ☹
-          </button>
-
-        </div>
-
-
-        <p class="hint">
-          Choose carefully... 👀
-        </p>
-
-      </div>
-
-    </section>
-
-
-    <!-- SUCCESS CARD -->
-    <section
-      class="card success-card hidden"
-      id="successCard"
-    >
-
-      <div class="celebration">
-        💕 💗 💕
-      </div>
-
-
-      <div class="card-content">
-
-        <p class="tiny-text">
-          Wait... really?! 🥹
-        </p>
-
-
-        <h1>
-          YAYYYY!!! 🌸
-        </h1>
-
-
-        <div class="divider">
-          <span>🌸</span>
-          <span>♡</span>
-          <span>🌸</span>
-        </div>
-
-
-        <p class="question">
-          You said YES! 💕
-        </p>
-
-
-        <p class="message">
-          I was really hoping you'd say that.
-        </p>
-
-
-        <p class="message">
-          I promise to make you smile,
-          laugh, and feel very loved. 🥰
-        </p>
-
-
-        <div class="success-cat">
-
-          <span class="cat-face">
-            🐱
-          </span>
-
-          <span class="floating-heart heart-one">
-            💗
-          </span>
-
-          <span class="floating-heart heart-two">
-            💕
-          </span>
-
-          <span class="floating-heart heart-three">
-            💖
-          </span>
-
-        </div>
-
-
-        <p class="final-text">
-          So... I guess you're my girl now? 👉👈
-        </p>
-
-
-        <button
-          class="btn yes-btn replay-btn"
-          id="replay"
-        >
-          Read it again ♥
-        </button>
-
-      </div>
-
-    </section>
-
-  </main>
-
-
   <script src="script.js"></script>
-
 </body>
 </html>
