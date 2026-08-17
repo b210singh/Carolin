@@ -31,7 +31,7 @@ yesBtn.addEventListener("click", () => {
   document.body.innerHTML = `
     <div class="success">
       Knew it 😎👏 <br>
-      I promose it will be specail one ♥
+      I promose it will be special one ♥
       <br><br>
       <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTg1N2lxdTljZmZiOTlsbHowY3JjaXQ1OWRrN3hvb2xpbzZ5NXRpOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/W8hVGGjOjV82Rh6Oyi/giphy.gif" width="250"/>
     </div>
