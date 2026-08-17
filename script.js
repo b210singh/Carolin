@@ -5,7 +5,7 @@ let yesScale = 1;
 let noTexts = [
   "Are you sure? 😅",
   "Think again... 🤨",
-  "Be honest 👀",
+  "Making a mistake 👀",
   "Last chance 😄",
   "This button seems broken 🤔"
 ];
@@ -31,7 +31,7 @@ yesBtn.addEventListener("click", () => {
   document.body.innerHTML = `
     <div class="success">
       Knew it 😎👏 <br>
-      You are the BEST.
+      I'll make it special, I promise!
       <br><br>
       <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTg1N2lxdTljZmZiOTlsbHowY3JjaXQ1OWRrN3hvb2xpbzZ5NXRpOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/W8hVGGjOjV82Rh6Oyi/giphy.gif" width="250"/>
     </div>
