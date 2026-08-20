@@ -8,7 +8,7 @@ let noTexts = [
   "Lucas",
   "Tina",
   "Bruno",
-  "Michaela",
+  "Najeeb",
   "Judith",
   "Eva",
   "Felix"
