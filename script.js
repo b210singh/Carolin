@@ -3,11 +3,15 @@ const yesBtn = document.getElementById("yes");
 
 let yesScale = 1;
 let noTexts = [
-  "Are you sure? 😅",
-  "Think again... 🤨",
-  "Making a mistake 👀",
-  "Last chance 😄",
-  "This button seems broken 🤔"
+  "Marco",
+  "Christian",
+  "Lucas",
+  "Tina",
+  "Bruno",
+  "Michaela",
+  "Judith",
+  "Eva",
+  "Felix"
 ];
 
 let index = 0;
@@ -30,8 +34,7 @@ noBtn.addEventListener("mouseover", () => {
 yesBtn.addEventListener("click", () => {
   document.body.innerHTML = `
     <div class="success">
-      Knew it 😎👏 <br>
-      I promose it will be special one ♥
+      Knew it 😎 <br>
       <br><br>
       <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTg1N2lxdTljZmZiOTlsbHowY3JjaXQ1OWRrN3hvb2xpbzZ5NXRpOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/W8hVGGjOjV82Rh6Oyi/giphy.gif" width="250"/>
     </div>
