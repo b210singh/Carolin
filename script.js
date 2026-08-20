@@ -3,7 +3,7 @@ const yesBtn = document.getElementById("yes");
 
 let yesScale = 1;
 let noTexts = [
-  "Marco",
+  "Marco ",
   "Christian",
   "Lucas",
   "Tina",
